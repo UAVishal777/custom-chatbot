@@ -1,0 +1,40 @@
+{
+    "responses": {
+        "api_key": {
+            "question": "What is an API key?",
+            "answer": "An API key is a unique identifier used to authenticate a user or application to an API. It helps to ensure that only authorized clients can access the API's resources."
+        },
+        "oauth": {
+            "question": "What is OAuth?",
+            "answer": "OAuth is an open standard for access delegation commonly used for token-based authentication. It allows users to grant third-party applications limited access to their resources without exposing their credentials."
+        },
+        "rate_limiting": {
+            "question": "What is rate limiting?",
+            "answer": "Rate limiting is a technique used to control the number of requests a user or client can make to an API within a specified timeframe. It helps to prevent abuse and ensure fair usage among users."
+        },
+        "throttling": {
+            "question": "What is throttling?",
+            "answer": "Throttling is the process of intentionally slowing down the rate of requests to an API. It is used to manage the load on the server and ensure stability during high traffic periods."
+        },
+        "cros": {
+            "question": "What is Cross-Origin Resource Sharing (CORS)?",
+            "answer": "CORS is a security feature implemented by browsers to restrict web pages from making requests to a different domain than the one that served the web page. It helps prevent cross-site request forgery (CSRF) attacks."
+        },
+        "jwt": {
+            "question": "What is a JSON Web Token (JWT)?",
+            "answer": "A JSON Web Token (JWT) is an open standard for securely transmitting information between parties as a JSON object. It is often used for authentication and authorization in web applications."
+        },
+        "api_security_best_practices": {
+            "question": "What are some best practices for API security?",
+            "answer": "Some best practices for API security include using HTTPS to encrypt data in transit, implementing proper authentication and authorization mechanisms, validating and sanitizing input data, and regularly updating and patching your API."
+        },
+        "error_handling": {
+            "question": "How should error handling be managed in an API?",
+            "answer": "Error handling in an API should provide meaningful and consistent error messages, use appropriate HTTP status codes, and ensure that error responses do not expose sensitive information or system details."
+        },
+        "api_versioning": {
+            "question": "What is API versioning?",
+            "answer": "API versioning is a strategy for managing changes and updates to an API while maintaining backward compatibility. It allows developers to introduce new features or changes without breaking existing clients."
+        }
+    }
+}
