@@ -1,5 +1,5 @@
 # Modelfile for creating an API security assistant
-# Run `ollama create api-secexpert -f ./Modelfile` and then `ollama run api-secexpert` and enter a topic
+# Run `ollama create watson-x -f ./Modelfile` and then `ollama run watson-x` and enter a topic
 
 FROM codellama
 PARAMETER temperature 1
